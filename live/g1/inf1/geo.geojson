@@ -1,10 +1,3 @@
-{
-    "type": "FeatureCollection",
-    "crs": {
-        "type": "name",
-        "properties": {
-            "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
-        }
-    },
-    "features": []
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:dc4bd19bda2f9242415d21ae2ea7fea4e9568f33c66623c2a45cdc85d86781b6
+size 392

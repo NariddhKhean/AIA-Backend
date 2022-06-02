@@ -33,11 +33,15 @@ def static_layers(path):
 @app.route('/<path:path>/livelayers', methods=['GET'])
 @cross_origin()
 def live_layers(path):
+<<<<<<< HEAD
     live_layers = {}
     for group in list_layers(f'live/{path}'):
         with open(f'live/{path}/{group}/inputs.json', 'r') as inputs:
             live_layers[group] = json.loads(inputs.read())
     return live_layers
+=======
+    return json.dumps(list_layers(f'live/{path}'))
+>>>>>>> Nest layers into groups and update Flask routing
 
 @app.route('/static/<path:path>', methods=['GET'])
 @cross_origin()
