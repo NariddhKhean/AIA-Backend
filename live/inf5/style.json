@@ -1,0 +1,10 @@
+{
+    "type": "circle",
+    "paint": {
+        "circle-radius": 4,
+        "circle-stroke-width": 2,
+        "circle-color": "white",
+        "circle-opacity": 0,
+        "circle-stroke-color": "white"
+    }
+}
