@@ -10,11 +10,7 @@
         {
             "type": "Feature",
             "properties": {
-                "id": "ak16994521",
-                "mag": 2.3,
-                "time": 1507425650893,
-                "felt": null,
-                "tsunami": 0 
+                "description": "this is a popup"
             },
             "geometry": {
                 "type": "Point",
