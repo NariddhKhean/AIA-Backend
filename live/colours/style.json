@@ -5,6 +5,6 @@
         "circle-stroke-width": 2,
         "circle-color": "white",
         "circle-opacity": 0,
-        "circle-stroke-color": "white"
+        "circle-stroke-color": ["get", "color"]
     }
 }
