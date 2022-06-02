@@ -25,24 +25,24 @@ def list_layers(parent):
             layers.append(d.stem)
     return layers
 
-@app.route('/staticlayers', methods=['GET'])
+@app.route('/<path:path>/staticlayers', methods=['GET'])
 @cross_origin()
-def static_layers():
-    return json.dumps(list_layers('static'))
+def static_layers(path):
+    return json.dumps(list_layers(f'static/{path}'))
 
-@app.route('/inferencelayers', methods=['GET'])
+@app.route('/<path:path>/livelayers', methods=['GET'])
 @cross_origin()
-def inference_layers():
-    return json.dumps(list_layers('live'))
+def live_layers(path):
+    return json.dumps(list_layers(f'live/{path}'))
 
 @app.route('/static/<path:path>', methods=['GET'])
 @cross_origin()
 def static_jsons(path):
     return send_from_directory('static', path)
 
-@app.route('/inference/<path:path>', methods=['GET'])
+@app.route('/live/<path:path>', methods=['GET'])
 @cross_origin()
-def inference_jsons(path):
+def live_jsons(path):
     return send_from_directory('live', path)
 
 
@@ -51,9 +51,10 @@ def inference_jsons(path):
 def api():
     input_args = json.loads(request.data)
     model_id = input_args.pop('model')
-    model = importlib.import_module(f'live.{model_id}.model')
+    group = input_args.pop('group')
+    model = importlib.import_module(f'live.{group}.{model_id}.model')
 
-    with open(f'live/{model_id}/geo.geojson', 'r') as f:
+    with open(f'live/{group}/{model_id}/geo.geojson', 'r') as f:
         geojson = json.loads(f.read())
         geojson['features'] = model.call(input_args)
 
