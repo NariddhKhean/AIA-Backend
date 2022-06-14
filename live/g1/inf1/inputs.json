@@ -1,22 +1,20 @@
 [
     {
         "type": "mapPoint",
-        "prompt": "Please select a point on the map"
-    },
-    {
-        "type": "mapSelectLayer",
-        "prompt": "Please select a Layer Name",
-        "layer": "LayerName"
+        "prompt": "Select a point",
+        "returnID": "pointA"
     },
     {
         "type": "uiSlider",
-        "prompt": "Radius",
+        "prompt": "Input radius",
+        "returnID": "radius",
         "min": 10,
         "max": 50
     },
     {
         "type": "uiDropdown",
-        "prompt": "Type",
-        "options": ["Choice 1", "Choice 2", "Choice 3"]
+        "prompt": "Input type",
+        "returnID": "type",
+        "options": ["Residential", "Commericial", "Industrial"]
     }
 ]
