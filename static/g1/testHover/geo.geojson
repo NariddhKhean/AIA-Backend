@@ -1,0 +1,28 @@
+{
+  "type": "FeatureCollection",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "hover": "<p>p tag</p><br/><h1>h1 tag</h1><img src='/logo.png'></img>",
+        "industrial_count": 0.0,
+        "retail_count": 0.0,
+        "popden12": 1.45232,
+        "entertainment_count": 0.0,
+        "ID": 1,
+        "education_count": 0.0,
+        "food_count": 0.0,
+        "healthcare_count": 0.0,
+        "resi_count": 0.0,
+        "transport_count": 0.0,
+        "green_count": 20.0,
+        "commercials_count": 0.0
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [ [ [ 16.386065081223631, 48.324302256777308 ], [ 16.386060692287522, 48.319805737979394 ], [ 16.392802567748795, 48.319802613542414 ], [ 16.392807549254279, 48.324299131837556 ], [ 16.386065081223631, 48.324302256777308 ] ] ]
+      }
+    }
+  ]
+}
