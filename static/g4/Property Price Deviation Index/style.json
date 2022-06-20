@@ -1,0 +1,7 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": ["get", "fill"],
+        "fill-opacity": ["get", "fill-opacity"]
+    }
+}

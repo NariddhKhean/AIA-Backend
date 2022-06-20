@@ -1,0 +1,21 @@
+[
+    {
+        "type": "mapPoint",
+        "prompt": "Select a point",
+        "returnID": "userPoint"
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Radius of effect",
+        "returnID": "radius_circle",
+        "min": 1,
+        "max": 50
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Number of new trees",
+        "returnID": "number_new_trees",
+        "min": 1,
+        "max": 50
+    }
+]

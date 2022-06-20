@@ -1,0 +1,21 @@
+[
+    {
+        "type": "mapPoint",
+        "prompt": "Select a point",
+        "returnID": "userPoint"
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Listing",
+        "returnID": "listing",
+        "min": 0,
+        "max": 1000
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Square Meter",
+        "returnID": "sqm",
+        "min": 0,
+        "max": 30000
+    }
+]
