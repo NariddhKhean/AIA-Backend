@@ -1,0 +1,28 @@
+[
+    {
+        "type": "mapPoint",
+        "prompt": "Select a street",
+        "returnID": "street"
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Amenities",
+        "returnID": "amenities",
+        "min": 0,
+        "max": 30
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Trees",
+        "returnID": "trees",
+        "min": 0,
+        "max": 30
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Parking Places",
+        "returnID": "parking_places",
+        "min": 0,
+        "max": 30
+    }
+]
