@@ -1,0 +1,15 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "Am03_ArtCu"],
+            1,
+            "hsl(298, 72%, 93%)",
+            9,
+            "hsla(278, 76%, 44%, 0.42)"
+        ]
+    }
+}
+  

@@ -1,0 +1,15 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "population"],
+            14790,
+            "hsla(304, 37%, 100%, 0.02)",
+            133066,
+            "hsla(288, 73%, 56%, 0.84)"
+        ]
+    }
+}
+  

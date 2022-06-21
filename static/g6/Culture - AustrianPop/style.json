@@ -1,0 +1,16 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-outline-color": "hsl(291, 100%, 59%)",
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "FROM_AUSTR"],
+            0,
+            "hsl(288, 52%, 100%)",
+            18928,
+            "hsl(288, 62%, 44%)"
+        ]
+    }
+}
+   

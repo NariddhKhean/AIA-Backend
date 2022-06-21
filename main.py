@@ -23,6 +23,8 @@ def list_layers(parent):
         files = [x.stem for x in list(d.iterdir())]
         if 'style' in files and 'geo' in files:
             layers.append(d.stem)
+    if layers != []:
+        layers.sort()
     return layers
 
 @app.route('/<path:path>/staticlayers', methods=['GET'])

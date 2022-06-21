@@ -2,6 +2,6 @@
     "type": "fill",
     "paint": {
         "fill-opacity": ["get", "opacity"],
-        "fill-color": ["get", "color"]   
+        "fill-color": ["get", "color"]
     }
 }
