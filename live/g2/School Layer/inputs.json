@@ -1,0 +1,42 @@
+[
+    {
+        "type": "mapPoint",
+        "prompt": "Select a building",
+        "returnID": "building"
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "U Value: Walls",
+        "returnID": "u_val_walls",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "U Value: Roof",
+        "returnID": "u_val_roof",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "U Value: Basement",
+        "returnID": "u_val_basement",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "U Value: Glass",
+        "returnID": "u_val_glass",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "G Value: Glass",
+        "returnID": "g_val_glass",
+        "min": 0,
+        "max": 10
+    }
+]

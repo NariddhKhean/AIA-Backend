@@ -1,7 +1,0 @@
-{
-  "type": "line",
-  "paint": {
-    "line-width": 2,
-    "line-color": ["get", "color"] 
-  }
-}
