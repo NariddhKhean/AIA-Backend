@@ -1,0 +1,31 @@
+{
+    "type": "heatmap",
+    "paint": {
+        "heatmap-color": [
+            "interpolate",
+            ["linear"],
+            ["heatmap-density"],
+            0,
+            "rgba(214,234,248,0)",
+            0.2,
+            "rgba(133,193,233,0.5)",
+            0.4,
+            "rgba(93,173,226,0.5)",
+            0.6,
+            "rgba(52,152,219,0.5)",
+            0.8,
+            "rgba(40,116,166,0.5)",
+            1,
+            "rgba(33,97,140,0.5)"
+        ],
+        "heatmap-radius": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            10,
+            16,
+            17,
+            256
+        ]
+    }
+}

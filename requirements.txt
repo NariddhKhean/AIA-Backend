@@ -9,3 +9,6 @@ pandas==1.4.1
 geopandas==0.10.2
 Shapely==1.8.2
 tensorflow==2.9.1
+networkx==2.8.4
+osmnx==1.2.1
+momepy==0.5.3

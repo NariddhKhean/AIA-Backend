@@ -1,0 +1,31 @@
+[
+    {
+        "type": "uiDropdown",
+        "prompt": "Special Needs Visual",
+        "returnID": "special_needs_visual",
+        "options": ["true", "false"]
+    },
+    {
+        "type": "uiDropdown",
+        "prompt": "Special Needs Physical",
+        "returnID": "special_needs_physical",
+        "options": ["true", "false"]
+    },
+    {
+        "type": "uiSlider",
+        "prompt": "Public Image",
+        "returnID": "public_image",
+        "min": 0,
+        "max": 10
+    },
+    {
+        "type": "mapPoint",
+        "prompt": "Select a origin",
+        "returnID": "origin"
+    },
+    {
+        "type": "mapPoint",
+        "prompt": "Select a destination",
+        "returnID": "destination"
+    }
+]

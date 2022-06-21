@@ -1,0 +1,12 @@
+{
+    "type": "line",
+    "paint": {
+        "line-color": "Yellow",
+        "line-width": 5
+        },
+
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    }
+}
