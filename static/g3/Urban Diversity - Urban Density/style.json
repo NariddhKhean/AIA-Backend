@@ -1,0 +1,16 @@
+{
+    "type": "circle",
+    "paint": {
+        "circle-color": "green",
+        "circle-radius": [
+            "step",
+            ["get", "percentage_density"],
+            1,
+            30,
+            3,
+            70,
+            5
+        ],
+        "circle-opacity": 0.5
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "type": "line",
+    "paint": {
+        "line-width": 1,
+        "line-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "tree_index"],
+            0,
+            "white",
+            0.1,
+            "palegreen",
+            0.3,
+            "lightgreen",
+            0.5,
+            "green",
+            0.7,
+            "darkolivegreen",
+            1,
+            "darkgreen"
+        ]
+    },
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    }
+}

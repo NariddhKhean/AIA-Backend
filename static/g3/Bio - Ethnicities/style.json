@@ -1,0 +1,19 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "diversity_index"],
+            1.0,
+            "plum",
+            1.5,
+            "violet",
+            2.0,
+            "purple",
+            2.5,
+            "indigo"
+        ],
+        "fill-opacity": 0.75
+    }
+}

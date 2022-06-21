@@ -1,0 +1,24 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "distance"],
+            0.62,
+            "hsla(281, 93%, 97%, 0.41)",
+            0.87,
+            "hsla(281, 74%, 24%, 0.41)"
+        ],
+        "fill-outline-color": [
+            "interpolate",
+            ["linear"],
+            ["zoom"],
+            12,
+            "hsla(0, 88%, 95%, 0)",
+            13,
+            "hsl(298, 37%, 31%)"
+        ]
+    }
+}
+  

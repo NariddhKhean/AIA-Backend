@@ -1,0 +1,25 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get","total_pop"],
+            0,
+            "#D6EAF8",
+            50000,
+            "#85C1E9",
+            75000,
+            "#5DADE2",
+            100000,
+            "#3498DB",
+            150000,
+            "#2874A6",
+            200000,
+            "#21618C",
+            250000,
+            "#1B4F72"
+        ],
+        "fill-opacity": 0.75
+    }
+}

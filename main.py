@@ -27,12 +27,12 @@ def list_layers(parent):
         layers.sort()
     return layers
 
-@app.route('/<path:path>/staticlayers', methods=['GET'])
+@app.route('/staticlayers/<path:path>', methods=['GET'])
 @cross_origin()
 def static_layers(path):
     return json.dumps(list_layers(f'static/{path}'))
 
-@app.route('/<path:path>/livelayers', methods=['GET'])
+@app.route('/livelayers/<path:path>', methods=['GET'])
 @cross_origin()
 def live_layers(path):
     live_layers = {}
@@ -41,12 +41,12 @@ def live_layers(path):
             live_layers[group] = json.loads(inputs.read())
     return live_layers
 
-@app.route('/static/<path:path>', methods=['GET'])
+@app.route('/staticlayer/<path:path>', methods=['GET'])
 @cross_origin()
 def static_jsons(path):
     return send_from_directory('static', path)
 
-@app.route('/live/<path:path>', methods=['GET'])
+@app.route('/livelayer/<path:path>', methods=['GET'])
 @cross_origin()
 def live_jsons(path):
     return send_from_directory('live', path)

@@ -1,0 +1,27 @@
+{
+    "type": "line",
+    "paint": {
+        "line-width": 1,
+        "line-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "wheelchair_friendly_index"],
+            0,
+            "white",
+            0.1,
+            "lightskyblue",
+            0.3,
+            "deepskyblue",
+            0.5,
+            "dodgerblue",
+            0.7,
+            "blue",
+            1,
+            "darkblue"
+        ]
+    },
+    "layout": {
+        "line-cap": "round",
+        "line-join": "round"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get","rom-cath"],
+            0,
+            "#E59866",
+            25,
+            "#DC7633",
+            50,
+            "#D35400",
+            75,
+            "#BA4A00",
+            100,
+            "#873600"
+        ],
+        "fill-opacity": 0.75
+    }
+}

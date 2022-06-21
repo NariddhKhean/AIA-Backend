@@ -1,0 +1,21 @@
+{
+    "type": "fill",
+    "paint": {
+        "fill-color": [
+            "interpolate",
+            ["linear"],
+            ["get", "old"],
+            0,
+            "#F2F12D",
+            25,
+            "#DA9C20",
+            50,
+            "#CA8323",
+            75,
+            "#B86B25",
+            100,
+            "#B86B25"
+        ],
+        "fill-opacity": 0.75
+    }
+}
